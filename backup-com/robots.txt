@@ -1,4 +1,0 @@
-Sitemap: http://ice-tc.com/sitemap.xml
-
-User-agent: *
-Disallow: 

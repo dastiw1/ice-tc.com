@@ -1,0 +1,274 @@
+/* Fix the width of the body */
+/* line 2, ../scss/style — копия.scss */
+body {
+  min-width: 960px;
+  margin: auto;
+}
+
+/* line 6, ../scss/style — копия.scss */
+.container {
+  width: 960px;
+  min-width: 960px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Wrapper */
+/* line 14, ../scss/style — копия.scss */
+.row {
+  width: 960px;
+  margin: auto;
+}
+
+/* Column margins */
+/* line 26, ../scss/style — копия.scss */
+.col_12,
+.col_9,
+.col_8,
+.col_6,
+.col_4,
+.col_3 {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline;
+  float: left;
+}
+
+/* First and Last */
+/* line 34, ../scss/style — копия.scss */
+.first {
+  margin-left: 0px;
+}
+
+/* line 38, ../scss/style — копия.scss */
+.last {
+  margin-right: 0px;
+}
+
+/* Column widths taking into account the margins */
+/* line 43, ../scss/style — копия.scss */
+.col_12 {
+  width: 940px;
+}
+
+/* line 44, ../scss/style — копия.scss */
+.col_9 {
+  width: 620px;
+}
+
+/* line 45, ../scss/style — копия.scss */
+.col_8 {
+  width: 700px;
+}
+
+/* line 46, ../scss/style — копия.scss */
+.col_6 {
+  width: 460px;
+}
+
+/* line 47, ../scss/style — копия.scss */
+.col_4 {
+  width: 220px;
+}
+
+/* line 48, ../scss/style — копия.scss */
+.col_3 {
+  width: 300px;
+}
+
+/* line 50, ../scss/style — копия.scss */
+img {
+  width: 100%;
+}
+
+/* Fix the .last issue */
+/* line 54, ../scss/style — копия.scss */
+.last {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+/* line 59, ../scss/style — копия.scss */
+.body, html {
+  font-family: Open Sans !important;
+  font-size: 14px;
+}
+
+/* line 64, ../scss/style — копия.scss */
+.header {
+  background-image: url("../images/header-bg.jpg");
+  background-repeat: no-repeat;
+  height: 108px;
+  min-width: 960px;
+}
+
+/* line 70, ../scss/style — копия.scss */
+.label {
+  border: 1px solid #ccc;
+  border-left: none;
+  border-right: none;
+  height: 50px;
+}
+
+/* line 77, ../scss/style — копия.scss */
+.label h2 {
+  color: #4e6ba0;
+  padding: 12px 0;
+}
+
+/* line 81, ../scss/style — копия.scss */
+#logo {
+  margin-left: 25px;
+  float: left;
+  width: 222px;
+  height: 64px;
+}
+
+/* menu */
+/* line 94, ../scss/style — копия.scss */
+.menubar {
+  margin-top: 12px;
+}
+
+/* line 99, ../scss/style — копия.scss */
+.menu-item a {
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 104, ../scss/style — копия.scss */
+.menu-item a span {
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+}
+
+/* line 109, ../scss/style — копия.scss */
+.navbar {
+  display: inline;
+  background-color: #fff;
+  list-style: none;
+  width: 730px;
+  margin-left: 0;
+  height: 40px;
+  padding: 9px 0px;
+}
+
+/* line 118, ../scss/style — копия.scss */
+.menubutton {
+  display: inline;
+}
+
+/**/
+/* line 123, ../scss/style — копия.scss */
+.menu-item {
+  background: #315387;
+  color: #fff;
+  display: inline-block;
+  font-size: 0px;
+  position: relative;
+  margin-left: 18px;
+  min-width: 100px;
+  cursor: pointer;
+  padding: 6px 2px 11px;
+}
+
+/* line 135, ../scss/style — копия.scss */
+.menu-item:before {
+  left: -19px;
+  top: 0;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-right: 0px solid transparent;
+  border-left: 20px solid transparent;
+  border-bottom: 40px solid #315387;
+  content: '';
+  top: 0;
+}
+
+/* line 149, ../scss/style — копия.scss */
+.menu-item:after {
+  position: absolute;
+  width: 2px;
+  height: 0;
+  top: 0;
+  left: 99%;
+  border-left: 0px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 40px solid #315387;
+  content: '';
+}
+
+/* line 161, ../scss/style — копия.scss */
+.menu-item:hover {
+  background: #3399ff;
+}
+
+/* line 165, ../scss/style — копия.scss */
+.menu-item:hover:after {
+  border-top-color: #3399ff;
+  border-left-color: #3399ff;
+}
+
+/* line 170, ../scss/style — копия.scss */
+.menu-item:hover:before {
+  border-right-color: #3399ff;
+  border-bottom-color: #3399ff;
+}
+
+/* line 174, ../scss/style — копия.scss */
+#menucall {
+  background-color: #286ab0;
+  width: 45px;
+  left: -22px;
+  height: 22px;
+  min-width: 45px;
+}
+
+/* line 181, ../scss/style — копия.scss */
+#menucall:before {
+  left: -20px;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: none;
+  border-right: 0px solid transparent;
+  border-left: 22px solid transparent;
+  border-top: 40px solid #286ab0;
+  content: '';
+}
+
+/* line 193, ../scss/style — копия.scss */
+#menucall:after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 49px;
+  border-left: 0px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 40px solid #286ab0;
+}
+
+/* line 202, ../scss/style — копия.scss */
+.menu-item.first {
+  margin-left: -4px;
+}
+
+/* line 207, ../scss/style — копия.scss */
+#searchbar {
+  background-image: url("../images/searchbar.png");
+  display: inline-block;
+  margin-top: 5px;
+  background-repeat: no-repeat;
+  width: 684px;
+  height: 18px;
+}
+
+/* PROMO */
+/* line 216, ../scss/style — копия.scss */
+.promo, .content {
+  height: 240px;
+  margin-bottom: 5px;
+}

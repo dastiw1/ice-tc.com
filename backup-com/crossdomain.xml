@@ -1,0 +1,4 @@
+<cross-domain-policy>
+	<allow-access-from domain="*.weebly.com"/>
+	<allow-access-from domain="*.dragndropbuilder.com"/>
+</cross-domain-policy>
